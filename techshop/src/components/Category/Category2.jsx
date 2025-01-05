@@ -47,7 +47,7 @@ const Category = () => {
                 />
               </div>
             </div>
-            <img src={Image2} alt="" className="w-[320px] absolute bottom-0" />
+            <img src={Image2} alt="" className="w-[320px] absolute -right-0 bottom-0" />
           </div>
           {/* Third col */}
           <div className="py-10 pl-5 bg-gradient-to-br from-brandBlue to-brandBlue/90 text-white rounded-3xl relative h-[320px] flex items-start">

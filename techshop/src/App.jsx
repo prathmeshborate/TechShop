@@ -17,8 +17,6 @@ import Popup from "./components/Popup/Popup.jsx";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import { Analytics } from '@vercel/analytics/next';
-
 const BannerData = {
   discount: "30% OFF",
   title: "Fine Smile",
@@ -74,7 +72,6 @@ const App = () => {
       <Partners />
       <Footer />
       <Popup orderPopup={orderPopup} handleOrderPopup={handleOrderPopup} />
-      <Analytics />
     </div>
   );
 };
