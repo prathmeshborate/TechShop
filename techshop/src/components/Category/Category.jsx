@@ -32,7 +32,7 @@ const Category = () => {
             <img
                 src={Image2}
                 alt=""
-                className="w-[320px] absolute -right-4 lg:top-[40px]"
+                className="w-[320px] absolute lg:-right-16 -right-20 lg:top-[40px]"
               />
             <div>
               <div className="mb-4">
@@ -50,8 +50,12 @@ const Category = () => {
             </div>
           </div>
           {/* third col */}
-          <div className="sm:col-span-2 py-10 pl-5 bg-gradient-to-br from-primary to-primary/90 text-white rounded-3xl relative h-[320px] flex items-end">
-            <div>
+          <div className="sm:col-span-2 py-10 pl-5 bg-gradient-to-br from-primary to-primary/90 text-white rounded-3xl relative h-[320px] flex items-end">   
+            <img
+                src={Image3}
+                alt=""
+                className="w-[250px] absolute top-1/2 -translate-y-1/2 -right-2"
+              /><div>
               <div className="mb-4">
                 <p className="mb-[2px] text-white">Enjoy</p>
                 <p className="text-2xl font-semibold mb-[2px]">With</p>
@@ -65,11 +69,7 @@ const Category = () => {
                 />
               </div>
             </div>
-            <img
-              src={Image3}
-              alt=""
-              className="w-[250px] absolute top-1/2 -translate-y-1/2 -right-0"
-            />
+            
           </div>
         </div>
       </div>
